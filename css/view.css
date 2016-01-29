@@ -8,8 +8,8 @@ section p{margin:1em 0;}
 footer{text-align: center;margin:1em 0;}
 
 .tool-list li{padding:5px;background-color:#ECEFED;display:inline-block;margin:5px;border-radius: 5px;}
-.tool-list a{color:#232425;}
-.tool-list a:hover{color: #2398F5;text-decoration: none;}
+a{color:#232425;}
+a:hover{color: #2398F5;text-decoration: none;}
 
 @font-face {
     font-family: 'icomoon';
