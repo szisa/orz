@@ -7,7 +7,8 @@ section h2{padding:10px 0;}
 section p{margin:1em 0;}
 footer{text-align: center;margin:1em 0;}
 
-.tool-list li{padding:5px;background-color:#ECEFED;display:inline-block;margin:5px;border-radius: 5px;}
+.tool-list li{background-color: #DCDFDD;display:inline-block;margin:5px;border-radius: 5px;}
+.tool-list li>a{padding:5px;display:inline-block;}
 a{color:#232425;}
 a:hover{color: #2398F5;text-decoration: none;}
 
