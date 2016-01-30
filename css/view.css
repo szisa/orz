@@ -5,7 +5,7 @@ section{padding:5%;}
 section h1{font-size:2em;display:inline-block;border-bottom:2px solid #131415;font-weight:200;}
 section h2{padding:10px 0;}
 section p{margin:1em 0;}
-footer{text-align: center;margin:1em 0;}
+footer{text-align: center;margin:1em 0;padding: 0 10%;}
 
 .tool-list li{background-color: #DCDFDD;display:inline-block;margin:5px;border-radius: 5px;}
 .tool-list li>a{padding:5px;display:inline-block;}
@@ -38,16 +38,20 @@ a:hover{color: #2398F5;text-decoration: none;}
     margin-right: 5px;
 }
 
+.icon-fly:before { content: "\e90f"; }
 .icon-edit:before { content: "\e900"; }
-.icon-tool:before { content: "\e90c"; }
-.icon-markdown:before { content: "\e901";}
-.icon-music:before { content: "\e902"; }
-.icon-book:before { content: "\e903"; }
-.icon-unicode:before { content: "\e904"; }
+.icon-markdown:before { content: "\e901"; }
+.icon-block:before { content: "\e902"; }
+.icon-shot:before { content: "\e903"; }
+.icon-code:before { content: "\e904"; }
 .icon-trend:before { content: "\e905"; }
 .icon-translate:before { content: "\e906"; }
-.icon-movie:before { content: "\e907"; }
-.icon-download:before { content: "\e908"; }
-.icon-amazon:before { content: "\e909"; }
-.icon-google:before { content: "\e90a"; }
-.icon-wikipedia:before { content: "\e90b";}
+.icon-music:before { content: "\e907"; }
+.icon-book:before { content: "\e908"; }
+.icon-images:before { content: "\e909"; }
+.icon-movie:before { content: "\e90a"; }
+.icon-tool:before { content: "\e90b"; }
+.icon-amazon:before { content: "\e90c"; }
+.icon-google:before { content: "\e90d"; }
+.icon-wikipedia:before { content: "\e90e"; }
+.icon-display:before { content: "\e910"; }
