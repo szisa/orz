@@ -1,16 +1,21 @@
 body{max-width:800px;margin:auto;}
 header h1{text-align:center;font-size:4em;}
 header h1>i[class^="icon-"]{font-size: .8em;vertical-align: baseline;margin-right: 15px;}
-section{padding:5%;}
+section{padding:0 5%;}
 section h1{font-size:2em;display:inline-block;border-bottom:2px solid #131415;font-weight:200;}
-section h2{padding:10px 0;}
+section h2{margin:10px 0;clear:both;}
 section p{margin:1em 0;}
-footer{text-align: center;margin:1em 0;padding: 0 10%;}
+section article{margin:1em 0;}
+footer{text-align: center;padding: 1em 10%;clear: both;}
 
-.tool-list li{background-color: #DCDFDD;display:inline-block;margin:5px;border-radius: 5px;}
-.tool-list li>a{padding:5px;display:inline-block;}
+.tool-list li{display:inline-block;}
+.tool-list li>a, .tool-item{padding:5px;background-color: #DCDFDD;display:inline-block;margin:5px;border-radius: 5px;}
 a{color:#232425;}
 a:hover{color: #2398F5;text-decoration: none;}
+
+.art-maker input[type="text"],.art-maker textarea{width:88%;margin:0;border:0;background: #DCDFDD;padding:0 1%;}
+.art-maker label{display: inline-block;width:10%;vertical-align: top;}
+.art-maker button{border:0;background:#131415;color:#FFF;padding:3px 10px;border-radius: 3px;float:right;clear:both;}
 
 @font-face {
     font-family: 'icomoon';
