@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function(ev){
         var code = document.getElementById("code-block").value;
         var name = document.getElementById("code-name").value;
         if(name == "" || code == "") return false;
-        code = whak_pack(code,true,true);
+        code = whak_pack(code,false,true);
         document.getElementById("code-bin").innerHTML = "";
         document.getElementById("code-bin").appendChild(createTool("javascript:" + code, name));      
     }, false);
