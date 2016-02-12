@@ -7,15 +7,23 @@ section h2{margin:10px 0;clear:both;}
 section p{margin:1em 0;}
 section article{margin:1em 0;}
 footer{text-align: center;padding: 1em 10%;clear: both;}
+textarea{width: 98%;padding: 1%;}
+button{border:0;background:#131415;color:#FFF;padding:3px 10px;border-radius: 3px;margin-right: 5px;clear:both;}
 
 .tool-list li{display:inline-block;}
 .tool-list li>a, .tool-item{padding:5px;background-color: #DCDFDD;display:inline-block;margin:5px;border-radius: 5px;}
 a{color:#232425;}
 a:hover{color: #2398F5;text-decoration: none;}
 
+.submit-block{text-align: right;}
 .art-maker input[type="text"],.art-maker textarea{width:88%;margin:0;border:0;background: #DCDFDD;padding:0 1%;}
 .art-maker label{display: inline-block;width:10%;vertical-align: top;}
-.art-maker button{border:0;background:#131415;color:#FFF;padding:3px 10px;border-radius: 3px;float:right;clear:both;}
+#search-bin,#code-bin{float: left;margin: 0;}
+
+#msg-alert,#msg-prompt{opacity:0;display: none;}
+#msg-alert{z-index:200;transition: opacity .5s;background: rgba(12,13,14,0.2);position: fixed;width: 100%;height: 100%;top: 0;left: 0;margin: 0;}
+#msg-prompt{z-index:100;transition: opacity .5s;position: fixed;top:50%;left:50%;width: 500px;margin: -183px -250px;background: #FFF;padding: 0 15px 15px;border: 1px solid #121314;border-radius: 10px;}
+.msg-content{padding: 10px;margin: -10px -100px;border-radius: 10px;text-align: center;position: absolute;top: 50%;left: 50%;background: #FFF;width: 200px;}
 
 @font-face {
     font-family: 'icomoon';

@@ -56,8 +56,8 @@
                <p><label for="search-name">工具名：</label><input type="text" id="search-name" placeholder="例：豆瓣读书搜索" /></p>
                <p><label for="search-key">提示语：</label><input type="text" id="search-tip" placeholder="例：请输入书籍名字" /></p>
                <p><label for="search-page">搜索页：</label><input type="text" id="search-page" placeholder="例：http://book.douban.com/subject_search?search_text=#keyword#" /></p>
-               <p><button id="build-search-tool">生成</button></p>
                <p id="search-bin"></p>
+               <p class="submit-block"><button id="push-search-tool">推荐</button><button id="build-search-tool">生成</button></p>
            </div>
        </div>
        <div>
@@ -66,10 +66,20 @@
                <p class="tip">编写工具的js代码，贴入代码框中。</p>
                <p><label for="code-name">工具名：</label><input type="text" id="code-name" placeholder="例：批量获取图片" /></p>
                <p><label for="code-block">代码：</label><textarea rows="10" cols="78" id="code-block" spellcheck="false"></textarea></p>
-               <p><button id="build-code-tool">生成</button></p>
                <p id="code-bin"></p>
+               <p class="submit-block"><button id="push-code-tool">推荐</button><button id="build-code-tool">生成</button></p>
            </div>
        </div>
+   </article>
+   <article id="msg-alert">
+       <p class="msg-content"></p>
+   </article>
+   <article id="msg-prompt">
+       <h2 class="msg-title">推荐工具</h2>
+       <p><label for="msg-input" class="msg-tip">填写适用网站或工具说明:</label><span id="msg-code"></span></p>
+       <p><textarea rows="5" cols="78" id="msg-input" spellcheck="false" data-key="" data-post=""></textarea>
+       </p>
+       <p class="submit-block"><button id="msg-submit">Push</button></p>
    </article>
   </section>
   <footer>

@@ -2,16 +2,48 @@ var WHAK_com=atob('QlpoOTFBWSZTWXA+UAsAOBrfgHAQf///////3/+/////YEstwVfFTnoDp72hH
 var W,H,A,K='N=$(){$ t(){V.k=$(t){Z(Y i,h,o,s=t.@,n=[],f=0;s>f;f++){n.R([f,t[f]])}Z(n.R([s,-1]),f=[],s=n[0],t=s[0],s=s[1],i=1;i<n.@;i++){if(h=n[i][0],o=n[i][1],s){Z(;h>t;t++){f.R(X r(t,s))}}if(t=h,s=o,-1==o){G}}Z(f.Q($(t,r){? t.a-r.a||t.M-r.M}),V.J=f,n=0,t=-1,V.c=[],s=null,f=0;f<V.J.@;f++){i=V.J[f],t+=1,i.a!=n&&(t<<=i.a-n,s=V.c[n=i.a]={}),s[i.l=t]=i}V.e=16,V.f=-1,V.J.ZEach($(t){t.a<V.e&&(V.e=t.a),t.a>V.f&&(V.f=t.a)},V)}}$ r(t,r){V.M=t,V.a=r,V.l=void 0}$ i(){V.j=$(t){V.y=[];Z(Y r=0;31>r;r++){V.y[r]=(1<<r)-1}V.y[31]=-2147483648,V.d=t,V.D=V.z=V.a=0},V.g=$(t){Y r=t>>1;? V.b(r)*(1<<r)+V.b(t-r)},V.b=$(t){Z(;V.a<t;){V.z=(V.z<<8)+V.d.#(V.D++),V.a+=8}Y r=V.y[t],i=V.z>>V.a-t&r;? V.a-=t,V.z&=~(r<<V.a),i}}$ h(t,r){Y i,h,o,s,n,f,e=t.@;if(r>=e){L rx("Out")}if(0>r){L rx("Outs")}Z(i=t,t=t.T(""),i.Q(),h={},s=e-1;s>=0;s--){h[i[s]]=s}Z(o=[],s=0;e>s;s++){o.R(h[t[s]]++)}Z(h=i[s=r],n=[],f=1;e>f;f++){n.R(i[s=o[s]])}? h+n./().T("")}$ o(t,r,i){Z(Y h=t[r];r>0;t[r]=t[--r]){}i.R(t[0]=h)}?{^:{i:$(r){$ s(t){Z(Y r,i,h=[],o=t.b(16),s=I;s>0;s>>=1){if(o&s){Z(r=t.b(16),i=I;i>0;i>>=1){h.R(Boolean(r&i))}}P{Z(r=0;16>r;r++){h.R(!1)}}}? h}Y n,f=X i;if(f.j(r),f.b(16),104!=f.b(8)){L"Un"}if(r=f.b(8),!(r>=49&&57>=r)){L"Unk"}? r-=48,n=[],$(r,i,e,a,u,c,b,l,d,p,g,v,w,A){Z(;;){if(r=f.g(48),f.g(32),54156738319193!=r){if(25779555029136==r){f.b(7&f.a);G}L" 0x"+r.toString(16)}if(f.b(1)){L"B"}if(r=f.b(24),i=s(f),e=f.b(3),2>e||e>6){L rx("not")}Z(a=[0,1,2,3,4,5,6].slice(0,e),u=[],c=0,b=f.b(15);b>c;c++){Z(l=0;f.b(1);){if(l++>=e){L rx("2("+e+") ")}}o(a,l,u)}Z(l=[],a=i.reduce($(t,r){? t+r},0)+2,b=0;e>b;b++){Z(d=f.b(5),p=[],c=0;a>c;c++){if(0>d||d>20){L rx("side")}Z(;f.b(1);){d-=2*f.b(1)-1}p.R(d)}l.R(p)}Z(c=[],e=0;e<l.@;e++){b=X t,b.k(l[e]),c.R(b)}Z(e=[],l=i.@-1;l>=0;l--){i[l]&&e.R(String.fromCharCode(l))}Z(e./(),l=i=0,d=b=0,p=[];;){0>=--l&&(l=50,i<=u.@&&(g=c[u[i++]]));Z(w in g.c){if(f.a<w&&(f.z=(f.z<<8)+f.d.#(f.D++),f.a+=8),v=g.c[w][f.z>>f.a-w]){f.z&=f.y[f.a-=w],v=v.M;G}}if(v<0||1<v){Z(A=e[0];b>0;b--){p.R(A)}if(v==a-1){G}o(e,v-1,p)}P{0==b&&(d=1),b+=d<<v,d<<=1}}Z(r=h(p,r),u=[],c=0,a=r.@;a>c;){if(l=r.#(c),a-4>c&&r.#(c+1)==l&&r.#(c+2)==l&&r.#(c+3)==l){Z(l=r.charAt(c),i=r.#(c+4)+4;i>0;i--){u.R(l)}c+=5}P{u.R(r[c++])}}n.R(u.T(""))}}(),n.T("")}}}}(),F=N.^.i(N_^),eval(F);',W='#$/?@DFGIJLMNPQRTVXYZ^'.split('');for(A in H='charCodeAt,function,reverse,return,length,count,datas,break,32768,table,throw,code,WHAK,else,sort,push,join,this,new,var,for,com'.split(','))K=K.split(W[A]).join(H[A]);eval(K);
 
 
-document.addEventListener('DOMContentLoaded', function(ev){
+document.addEventListener('DOMContentLoaded', function(ev) {
     function createTool(href, name) {
         var tool = document.createElement("a");
         tool.className = "tool-item";
         tool.href = href;
         tool.innerHTML = name;
         return tool;
-    }
+    };
     
-    document.getElementById("build-search-tool").addEventListener("click", function(ev){
+    document.getElementById("push-search-tool").addEventListener("click", function(ev) {
+        document.getElementById("build-search-tool").click();
+        var page = document.getElementById("search-page").value;
+        var name = document.getElementById("search-name").value;
+        if(name == "" || page == "") return false;
+        var attr = {
+            "title" : "推荐工具",
+            "tip" : "填写适用网站或工具说明:",
+            "code" : document.getElementById("search-bin").innerHTML,
+            "key" : "website",
+            "post" : "push.php",
+            "submit" : "Push",
+        };
+        msgPrompt(attr);
+    }, false);
+    
+    document.getElementById("push-code-tool").addEventListener("click", function(ev) {
+        document.getElementById("build-code-tool").click();
+        var code = document.getElementById("code-block").value;
+        var name = document.getElementById("code-name").value;
+        if(name == "" || code == "") return false;
+        var attr = {
+            "title" : "推荐工具",
+            "tip" : "填写所适用网站或工具说明:",
+            "code" : document.getElementById("code-bin").innerHTML,
+            "key" : "website",
+            "post" : "push.php",
+            "submit" : "Push",
+        };
+        msgPrompt(attr);
+    }, false);
+    
+    document.getElementById("build-search-tool").addEventListener("click", function(ev) {
         var tip = document.getElementById("search-tip").value;
         var page = document.getElementById("search-page").value;
         var name = document.getElementById("search-name").value;
@@ -22,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function(ev){
         
     }, false);
     
-    document.getElementById("build-code-tool").addEventListener("click", function(ev){
+    document.getElementById("build-code-tool").addEventListener("click", function(ev) {
         var code = document.getElementById("code-block").value;
         var name = document.getElementById("code-name").value;
         if(name == "" || code == "") return false;
@@ -31,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function(ev){
         document.getElementById("code-bin").appendChild(createTool("javascript:" + code, name));      
     }, false);
     
-    document.body.addEventListener("keydown", function(ev){
+    document.body.addEventListener("keydown", function(ev) {
         var target = ev.target;
         if(target.nodeName.toLowerCase() == "textarea")
         {
@@ -48,4 +80,56 @@ document.addEventListener('DOMContentLoaded', function(ev){
         }
     }, false);
     
+    document.getElementById("msg-submit").addEventListener("click", function(ev) {
+        var input = document.getElementById("msg-input");
+        var code = document.getElementById("msg-code").getElementsByClassName("tool-item")[0];
+        var xhttp = new XMLHttpRequest();
+        var ele = document.getElementById("msg-prompt");
+        xhttp.onreadystatechange = function() {
+            if (xhttp.readyState == 4 && xhttp.status == 200) {
+                var data = JSON.parse(xhttp.responseText);
+                if (data.status == "ok") {
+                    ele.style.opacity = "0";
+                    setTimeout(function(){
+                        ele.style.display = "none";
+                    }, 1000 * parseInt(document.defaultView.getComputedStyle(ele, null)["transition-duration"].replace(/s/g, "")));
+                }
+                else {
+                    msgAlert(this.innerHTML + "失败！稍后重试~");
+                    console.log(data.msg);
+                }
+            }
+        };
+        xhttp.open("GET", input.dataset.post + "?" + input.dataset.key + "=" + encodeURIComponent(input.value) + "&code=" + encodeURIComponent(code.href) + "&name=" + encodeURIComponent(code.innerHTML), true);
+        xhttp.send();
+    }, false);
 }, false);
+    
+function msgAlert(msg) {
+    var ele = document.getElementById("msg-alert");
+    ele.getElementsByClassName("msg-content")[0].innerHTML = msg;
+    ele.style.display = "block";
+    ele.style.opacity = "1";
+    setTimeout(function(){
+        ele.style.opacity = "0";
+        setTimeout(function(){
+            ele.style.display = "none";
+        }, 1000 * parseInt(document.defaultView.getComputedStyle(ele, null)["transition-duration"].replace(/s/g, "")));
+    }, 4000);
+};
+
+function msgPrompt(attr) {
+    var ele = document.getElementById("msg-prompt");
+    var tip = ele.getElementsByClassName("msg-tip")[0];
+    var input = document.getElementById("msg-input");
+    var submit = document.getElementById("msg-submit");
+    var code = document.getElementById("msg-code");
+    tip.innerHTML = attr.tip;
+    input.dataset.key = attr.key;
+    input.dataset.post = attr.post;
+    submit.innerHTML = attr.submit;
+    code.innerHTML = attr.code;
+    ele.style.display = "block";
+    ele.style.opacity = "1";
+};
+
